@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="Images/Icono.png">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a mi Página Web Personal</h1>
+        <nav>
+            <ul>
+                <li><a href="#about_me">Acerca de mí</a></li>
+                <li><a href="#education">Educación</a></li>
+                <li><a href="#work_experience">Experiencia laboral</a></li>
+                <li><a href="#contact">Contacto</a></li>
+                <li><a href="#form">Formulario</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about_me">
+            <h2>Acerca de mí</h2>
+            <p>Me llamo Agustin Aguirre, tengo 20 años y soy un entusiasta de la tecnología. En estos momentos me encuentro trabajando para una consultora y tengo muchas ganas de aprender sobre el desarrollo de aplicaciones web. Me considero una persona responsable, dedicada y con muchas ganas de aprender nuevas cosas.</p>
+            <img class="image" src="Images/Ryuu.png" alt="Imagen de perfil">
+        </section>
+
+        <section id="education">
+            <h2>Educación</h2>
+            <p>Estudié en un instituto técnico y me gradué con el titulo de técnico en programación. Durante mi tiempo como estudiante adquirí conocimientos en diversas áreas, incluyendo:</p>
+            <ul>
+                <li>Lenguajes de programación (Visual Basic, C#, Java)</li>
+                <li>Base de datos (DER, Modelo relacional, Normalización, SQL)</li>
+                <li>Desarrollo de aplicaciones web (WordPress, Joomla, Drupal)</li>
+                <li>Edición multimedia (Photoshop, Adobe Premier)</li>
+                <li>Conocimientos básicos de redes y telecomunicaciones</li>
+                <li>Sistemas de información (conceptos básicos, entrevistas y relevamiento de requerimientos, diagramas, construccion de un prototipo  y presentacion ante un cliente)</li>
+                <li>Conceptos básicos de hardware y software</li>
+            </ul>
+        </section>
+
+        <section id="work_experience">
+            <h2>Experiencia laboral</h2>
+            <p>Actualmente trabajo en una consultora donde he desempeñado diversas funciones:</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Área</th>
+                        <th>Rol desempeñado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Reportes BI</td>
+                        <td>Ingresé a la empresa capacitandome para ser un consultor BI Oracle, y luego pude 
+                            desarrollar distintos reportes requeridos por los clientes, donde tuve que hacer uso
+                            de mis conocimientos de SQL y aprendi a desarrollar templates, los cuales se encargan
+                            de mostrar los datos de los reportes cuando son ejecutados por el cliente.</td>
+                    </tr>
+                    <tr>
+                        <td>Integraciones OIC</td>
+                        <td>Tuve la oportunidad de participar en un proyecto donde pude tener contacto
+                            con el mundo de las integraciones en Oracle y realizar algunas de las requeridas por el cliente.</td>
+                    </tr>
+                    <tr>
+                        <td>QA</td>
+                        <td>Desde marzo me encuentro sumergido en el mundo del testing, donde pude participar 
+                            en dos proyectos, uno de una app mobile y el otro de un administrador de un sistema 
+                            de simuladores, y actualmente me encuentro en un proyecto de regresion, donde debo 
+                            realizar pruebas de un modulo en especifico pertenieciente a un entorno utilizado 
+                            por un cliente para administrar sus finanzas.</td>
+                    </tr>
+                    <tr>
+                        <td>Soporte interno</td>
+                        <td>Otra de las tareas que desempeño en la empresa es el de brindar soporte a las aplicaciones
+                            usadas por los miembros de la empresa, ya sea para solucionar bugs o aplicar mejoras para 
+                            un mejor rendimiento a la hora de ultilizarlas o para agregar nuevas funcionalidades segun vaya surgiendo la necesidad.
+                           Durante el ejercicio de esta tarea empecé a tener más contacto con JavaScript, HTML, CSS, Bootstrap y Ruby on Rails.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contact">
+            <h2>Contacto</h2>
+            <p>Puede ponerse en contacto conmigo a través de los siguientes medios:</p>
+            <ul class="contact-list">
+                <li>Correo electrónico: <a href="mailto:ignacioaguirre032@gmail.com">ignacioaguirre032@gmail.com</a></li>
+                <li>Teléfono: <a href="tel:+123456789">+1 234 56789</a></li>
+            </ul>
+        </section>
+
+        <section id="form">
+            <h2>Formulario de contacto:</h2>
+            <p>Tambien puede contactarse rellenando el siguiente formulario:</p><br>
+            <form action="#" method="post">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Correo:</label>
+                <input type="email" id="email" name="email">
+                <label for="subject">Asunto:</label>
+                <input type="text" id="subject" name="subject">
+                <label for="comment">Comentario:</label>
+                <textarea id="comment" name="comment" rows="5" cols="100"></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023, Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
